@@ -1,0 +1,114 @@
+@media screen and (max-width: 991px){
+    .sign_in_form{
+        width: 25%;
+    }
+
+    .weatherAPI_form{
+        width: 40%;
+    }
+
+    .weatherApp_nav_days_items{
+        margin: 0;
+    }
+
+    .features_loginsystem_text{
+        width: 100%;
+    }
+
+    .features_loginsystem_img{
+        width: 70%;
+        margin: 4% 15%;
+    }
+
+    .features_weatherAPI_text{
+        width: 100%;
+    }
+
+    .features_weatherAPI_img{
+        width: 70%;
+        margin: 4% 15%;
+    }
+
+    .features_stocksAPI_text{
+        width: 100%;
+    }
+
+    .features_stocksAPI_img{
+        width: 70%;
+        margin: 4% 15%;
+    }
+
+    .banner_heading{
+        font-size: 1.8rem;
+    }
+
+    .banner_text{
+        font-size: 80%;
+    }
+
+    .features_weatherAPI_text{
+        float: left;
+    }
+
+    #features{
+        padding-bottom: 60%;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .sign_in_form{
+        width: 60%;
+    }
+
+    .weatherAPI_form{
+        width: 70%;
+    }
+
+    .weatherApp_nav_days_items{
+        margin: 0;
+    }
+
+    .weatherApp_main_items{
+        margin: 0;
+    }
+
+    .banner_heading{
+        font-size: 1.4rem;
+    }
+}
+
+
+
+@media screen and (max-width: 575px){
+
+    .sign_in_form{
+        width: 100%;
+    }
+
+    .weatherAPI_form{
+        width: 80%;
+    }
+
+
+
+    .weatherApp_main_item_img_wrapper{
+        display: block;
+        width: 100%;
+    }
+
+    .weatherApp_main_item_attribut{
+        display: inline-block;
+        width: 45%;
+    }
+
+    .tableItem{
+        width: 25%;
+    }
+
+    .userbtn{
+        margin-top: 40%;
+        text-align: center;
+    }
+
+}

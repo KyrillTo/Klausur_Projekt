@@ -1,0 +1,241 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#banner{
+    
+}
+
+.banner_heading{
+    text-align: center;
+    padding-top: 5rem;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.banner_text{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#features{
+    padding: 2rem 2.5rem;
+    color: white;
+    background-color: #343a40;
+    padding: 0 0 5rem 0;
+}
+
+.features_heading{
+    text-align: center;
+}
+
+.features_loginsystem{
+
+}
+
+.features_loginsystem_text{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    width: 35%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.features_loginsystem_img{
+    display: block;
+    float: right;
+    width: 600px;
+    margin: 0 0 5% 0;
+}
+
+.features_weatherAPI{
+    display: inline-block;
+}
+
+.features_weatherAPI_text{
+    width: 35%;
+    float: right;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1% 0 0 0;
+}
+
+.features_weatherAPI_img{
+    display: block;
+    float: left;
+    width: 600px;
+    margin: 0 0 5% 0;
+}
+
+
+
+.features_stocksAPI_text{
+    width: 35%;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 5% 0 7% 0;
+}
+
+.features_stocksAPI_img{
+    display: block;
+    float: right;
+    width: 600px;
+    margin: 5% 0 5% 0;
+}
+
+.footer_text{
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+
+.error_btn{
+    text-decoration: none;
+    color: white;
+}
+
+.error_btn:hover{
+    color: #343a40;
+}
+
+.login{
+    display: inline; 
+}
+
+
+.login_header{
+    text-align: center;
+    margin: 4rem 0 1.5rem 0;
+}
+
+.sign_in_form{
+    margin: auto auto ;
+    width: 25%;
+
+}
+
+.weatherAPI{
+    text-align: center;
+    display: inline;
+    
+}
+
+.weatherAPI_header{
+    margin: 4rem auto 1.5rem auto;
+}
+
+.weatherAPI_form{
+    margin: auto auto ;
+    width: 40%;
+}
+
+.weatherApp_nav_days{
+    margin: 4rem 0;
+}
+
+.weatherApp_nav_days_items{
+    margin: 0 1%;
+    padding: 0.5rem 0;
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.weatherApp_nav_link{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.weatherApp_main_header{
+    margin-top: 5%;
+}
+
+.weatherApp_main_today{
+    margin: 1% 0 5% 0;
+    
+}
+
+
+.weatherApp_main_items{
+    text-align: center;
+    margin: 0 1%;
+
+}
+
+.droplet{
+    color: rgb(3, 117, 223);
+}
+
+.temperature{
+    color: rgb(207, 59, 14);
+}
+
+.weatherApp_main_item_attribut{
+    margin: 10% 0;
+}
+
+.Details_button{
+    margin: 4% 0 ;
+    padding: 0.5% 0;
+    -webkit-appearance: none;
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Details_button:hover{
+    cursor: pointer;
+}
+
+.details_container{
+    border: solid;
+    border-radius: 10px;
+}
+
+.Details_header{
+    margin: 1% 0 0 0;
+}
+
+.Details_items{
+    margin: 2% 0%;
+    text-align: center;
+}
+
+.Details_item{
+    margin: 2% 0;
+    
+}
+
+.login_button{
+    margin: 3% 0;
+}
+
+.adminHeader{
+    text-align: center;
+    margin: 3% 0 5%;
+}
+
+.userTable{
+    border: solid;
+    border-radius: 8px;
+}
+
+.user_thead{
+    padding: 3% 0 0 0;
+}
+
+.tableItem{
+    text-align: center;
+}
+
+.userbtn{
+    margin-top: 10%;
+}

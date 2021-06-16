@@ -1,0 +1,56 @@
+<%- include("header"); -%>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Klausur-Projekt</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/weatherApp_query">Weather</a>
+          </li>
+          <%if(authenticated && role == "admin"){%>
+            <li class="nav-item">
+              <a class="nav-link" href="/admin">Admin</a>
+            </li>
+          <%} %>
+          <% if(!authenticated) {%>
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Sign in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/register">Sign up</a>
+            </li>
+          
+          <% } else{ %>
+            <li class="nav-item">
+              <a class="nav-link" href="/logout">Logout</a>
+            </li>
+
+          <% } %>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="weatherAPI">
+    <h2 class="weatherAPI_header">Wie wird das Wetter heute in: </h2>
+
+    <form class="row g-3 weatherAPI_form" action="/weatherApp_query" method="post">
+        <div class="">
+          <label for="cityInput" class="visually-hidden">Password</label>
+          <input type="text" class="form-control" id="cityInput" placeholder="City name" name="cityName">
+        </div>
+        <div class="">
+          <button type="submit" class="btn btn-primary mb-3 btn-block">Search</button>
+        </div>
+      </form>
+  </div>
+
+
+<%- include("footer"); -%>
